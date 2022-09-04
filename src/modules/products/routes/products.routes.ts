@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import ProductsController from '../controllers/ProductsController';
+// https://www.npmjs.com/package/celebrate#segments
 import { celebrate, Joi, Segments } from 'celebrate';
 
 const productsRouter = Router();
